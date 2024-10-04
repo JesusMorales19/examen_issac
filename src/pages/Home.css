@@ -1,0 +1,39 @@
+/* Contenedor general */
+.home {
+    text-align: center;
+    padding: 20px;
+}
+
+.info-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.central-image {
+    width: 10%; /* Ajusta el ancho al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo de la galería de imágenes */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 310px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item {
+    text-decoration: none;
+}
